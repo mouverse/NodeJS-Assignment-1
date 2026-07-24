@@ -1,0 +1,11 @@
+What is hoisting and what is the Temporal Dead Zone (TDZ)? Explain with examples. (0.5 Grade)
+
+Hoisting is when javascript moves the declarations at the top of the code before executing for example
+console.log(x)
+var x = 10;
+it would return undefined
+
+TDZ is the same idea but with let and const they still get hosited but not initialized untill their declaration
+console.log(x);
+let x = 10;
+it would throw ReferenceError beacause X is in the deadzone

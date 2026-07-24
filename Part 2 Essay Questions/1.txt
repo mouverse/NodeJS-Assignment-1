@@ -1,0 +1,4 @@
+What is the difference between forEach and for...of? When would you use each? (0.5 Grade)
+
+For each executes callback function for each element in the array, we can't stop it with break
+For of same idea but we can stop early using break
