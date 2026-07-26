@@ -1,4 +1,0 @@
-What are the main differences between == and ===? (0.5 Grade)
-
-The difference is that == compares the value only lets say for example we compare "1" with 1 it would turn out to be true since JavaScript performs type conversion
-while === compares the value and the data type which means both variables must match otherwise it would return false like "1" and 1

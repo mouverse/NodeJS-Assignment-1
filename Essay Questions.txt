@@ -1,0 +1,37 @@
+========== Question 1 ==========
+What is the difference between forEach and for...of? When would you use each? (0.5 Grade)
+
+For each executes callback function for each element in the array, we can't stop it with break
+For of same idea but we can stop early using break
+
+========== Question 2 ==========
+What is hoisting and what is the Temporal Dead Zone (TDZ)? Explain with examples. (0.5 Grade)
+
+Hoisting is when javascript moves the declarations at the top of the code before executing for example
+console.log(x)
+var x = 10;
+it would return undefined
+
+TDZ is the same idea but with let and const they still get hosited but not initialized untill their declaration
+console.log(x);
+let x = 10;
+it would throw ReferenceError beacause X is in the deadzone
+
+========== Question 3 ==========
+What are the main differences between == and ===? (0.5 Grade)
+
+The difference is that == compares the value only lets say for example we compare "1" with 1 it would turn out to be true since JavaScript performs type conversion
+while === compares the value and the data type which means both variables must match otherwise it would return false like "1" and 1
+
+========== Question 4 ==========
+4. Explain how try-catch works and why it is important in async operations. (0.5 Grade)
+
+Let's say we have an API we want to try to get data from, we use try and if something goes wrong thats where catch gets in
+and handles the error depends on what we want to do instead of crashing the program, this is important since API requests
+may fail for alot of reasons
+
+========== Question 5 ==========
+5. What’s the difference between type conversion and coercion? Provide examples of each. (0.5 Grade)
+
+The difference is that type conversion is when we manually convert one data type to another for example converting a string to a number using Number("1")
+while type coercion is when JavaScript automatically converts one data type to another like "1" == 1 or "2" * 2 = 4

@@ -1,5 +1,0 @@
-4. Explain how try-catch works and why it is important in async operations. (0.5 Grade)
-
-Let's say we have an API we want to try to get data from, we use try and if something goes wrong thats where catch gets in
-and handles the error depends on what we want to do instead of crashing the program, this is important since API requests
-may fail for alot of reasons

@@ -1,4 +1,0 @@
-5. What’s the difference between type conversion and coercion? Provide examples of each. (0.5 Grade)
-
-The difference is that type conversion is when we manually convert one data type to another for example converting a string to a number using Number("1")
-while type coercion is when JavaScript automatically converts one data type to another like "1" == 1 or "2" * 2 = 4
